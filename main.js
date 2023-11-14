@@ -86,8 +86,8 @@ do {
 } while (!tipoServicioValido);
 
 
-function darTotal(costo) {
-    alert(nombre + " el costo del servicio requerido sera de " + "$" + costo);
+function darTotal(nombreCliente,costoServicio) {
+    alert(nombreCliente + " el costo del servicio requerido sera de " + "$" + costoServicio);
 }
 
-darTotal(costoTotalServicio);
+darTotal(nombre,costoTotalServicio);
