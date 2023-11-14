@@ -1,4 +1,3 @@
-let terminado = false;
 let nombreValido = false;
 let tipoServicioValido = false;
 let nombre;
