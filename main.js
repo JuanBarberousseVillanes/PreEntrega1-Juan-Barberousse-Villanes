@@ -24,7 +24,7 @@ do{
         if (tipoServicio.toLowerCase() == 'fotografia') {
             do{
                 cantidadFotos=+prompt("Ingrese cantidad de fotos deseada: Minimo 1, Maximo 30");
-                if(cantidadFotos == null || cantidadFotos == 0 || cantidadFotos<0 || cantidadFotos>30){
+                if(cantidadFotos == null || cantidadFotos == 0 || cantidadFotos<0 || cantidadFotos>30 || isNaN(cantidadFotos)){
                     alert("Ingrese una cantidad de fotos valida");
                 }else{
                     cantidadFotosValida=true;
